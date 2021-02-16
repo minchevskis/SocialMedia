@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserTableViewCell" rowHeight="48" id="KGk-i7-Jjw" customClass="UserTableViewCell" customModule="SocialMedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="POc-O0-aJG">
+                        <rect key="frame" x="16" y="8" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="Vcf-VL-M6E"/>
+                            <constraint firstAttribute="height" constant="32" id="zup-lo-hHF"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXt-0w-Wg2">
+                        <rect key="frame" x="56" y="16.5" width="206" height="15"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                        <color key="textColor" name="MainDark"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QkH-bz-H97">
+                        <rect key="frame" x="267" y="8" width="100" height="32"/>
+                        <color key="backgroundColor" name="MainPink"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="nvB-ic-U6L"/>
+                        </constraints>
+                        <state key="normal" title="Block">
+                            <color key="titleColor" name="mainWhite"/>
+                        </state>
+                        <state key="selected" title="Unblock"/>
+                        <connections>
+                            <action selector="onBlock:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="mkO-io-90H"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="POc-O0-aJG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0Wu-eJ-coG"/>
+                    <constraint firstAttribute="bottom" secondItem="QkH-bz-H97" secondAttribute="bottom" constant="8" id="4tM-PN-JL4"/>
+                    <constraint firstItem="QkH-bz-H97" firstAttribute="leading" secondItem="qXt-0w-Wg2" secondAttribute="trailing" constant="5" id="TWr-ym-6U9"/>
+                    <constraint firstItem="qXt-0w-Wg2" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="XT7-2l-un3"/>
+                    <constraint firstItem="POc-O0-aJG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Zjc-Be-VzW"/>
+                    <constraint firstItem="qXt-0w-Wg2" firstAttribute="leading" secondItem="POc-O0-aJG" secondAttribute="trailing" constant="8" id="cCJ-IP-1kd"/>
+                    <constraint firstAttribute="trailing" secondItem="QkH-bz-H97" secondAttribute="trailing" constant="8" id="rDK-eC-CU5"/>
+                    <constraint firstItem="QkH-bz-H97" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="us5-Ey-hKR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnBlock" destination="QkH-bz-H97" id="tfc-st-8fZ"/>
+                <outlet property="lblName" destination="qXt-0w-Wg2" id="IjI-ok-4HB"/>
+                <outlet property="profileImage" destination="POc-O0-aJG" id="Jcm-PU-uAT"/>
+            </connections>
+            <point key="canvasLocation" x="105.07246376811595" y="92.410714285714278"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="MainDark">
+            <color red="0.28999999165534973" green="0.28999999165534973" blue="0.28999999165534973" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MainPink">
+            <color red="1" green="0.38400000333786011" blue="0.39599999785423279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="mainWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,60 @@
+
+/* Class = "UITextField"; placeholder = "Date Of Birth"; ObjectID = "4Tc-Ew-i4Q"; */
+"4Tc-Ew-i4Q.placeholder" = "Date Of Birth";
+
+/* Class = "UILabel"; text = "Type in your Email ID and Password you chose for Momento and click Go to Feed"; ObjectID = "IW9-bQ-ZaH"; */
+"IW9-bQ-ZaH.text" = "Type in your Email ID and Password you chose for Momento and click Go to Feed";
+
+/* Class = "UIButton"; normalTitle = "Go to Feed"; ObjectID = "Jg3-4O-l3u"; */
+"Jg3-4O-l3u.normalTitle" = "Go to Feed";
+
+/* Class = "UIButton"; normalTitle = "Create New Account"; ObjectID = "L8o-ft-bDL"; */
+"L8o-ft-bDL.normalTitle" = "Create New Account";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "LVO-op-oxf"; */
+"LVO-op-oxf.normalTitle" = "Sign In";
+
+/* Class = "UITextField"; placeholder = "About Me"; ObjectID = "THx-Ay-xLM"; */
+"THx-Ay-xLM.placeholder" = "About Me";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "cOw-bG-Gcs"; */
+"cOw-bG-Gcs.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Continue with Facebook"; ObjectID = "cc3-t1-4ZD"; */
+"cc3-t1-4ZD.normalTitle" = "Continue with Facebook";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "fFA-nm-IHq"; */
+"fFA-nm-IHq.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "fJn-sh-Mt4"; */
+"fJn-sh-Mt4.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "© 2017 Momento Inc."; ObjectID = "is0-Mq-TzD"; */
+"is0-Mq-TzD.text" = "© 2017 Momento Inc.";
+
+/* Class = "UITextField"; placeholder = "Location"; ObjectID = "kDQ-Us-XXI"; */
+"kDQ-Us-XXI.placeholder" = "Location";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "l8D-Ey-Hdj"; */
+"l8D-Ey-Hdj.placeholder" = "Full Name";
+
+/* Class = "UIButton"; normalTitle = "Get Set Go!"; ObjectID = "pCV-1n-7Ie"; */
+"pCV-1n-7Ie.normalTitle" = "Get Set Go!";
+
+/* Class = "UILabel"; text = "Momento is a social app that lets you share your moments with friends"; ObjectID = "rjC-UW-JZh"; */
+"rjC-UW-JZh.text" = "Momento is a social app that lets you share your moments with friends";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "u5f-23-AKD"; */
+"u5f-23-AKD.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "uUz-nA-jyP"; */
+"uUz-nA-jyP.placeholder" = "Gender";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "vDB-24-o5W"; */
+"vDB-24-o5W.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Can’t Sign In? Reset Password"; ObjectID = "x5Q-tV-yNT"; */
+"x5Q-tV-yNT.normalTitle" = "Can’t Sign In? Reset Password";
+
+/* Class = "UILabel"; text = "Hey! We need few details from you before you start sharing on Momento"; ObjectID = "xK3-7g-OPr"; */
+"xK3-7g-OPr.text" = "Hey! We need few details from you before you start sharing on Momento";
